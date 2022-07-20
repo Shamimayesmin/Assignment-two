@@ -71,9 +71,11 @@ body{
 /*------------------------------match info--------------*/
 
 .container-small{
+    justify-content: center;
+    align-items: center;
     width: 312px;
     height: 312px;
-    margin-top: 130px;
+    margin-top: 60px;
     margin-left: 140px;
     margin-bottom: 120px;
     background-color: black;
@@ -125,7 +127,9 @@ body{
 .container-two{
     display: flex;
     justify-content:space-between;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: stretch;
+
     
 }
 
@@ -133,12 +137,12 @@ body{
 .main-container{
     width: 880px;
     padding: 30px;
+    margin-right: 300px;
     background-color: white;
     border-radius: 10px;
     margin-top: 25px;
     justify-content: flex-end;
     align-items: center;
-    margin-left: 488px;
     float: right;
 
 }
@@ -147,6 +151,7 @@ body{
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 5px;
     grid-row-gap: 20px;
+    margin-right: 1100px;
 }
 .blog .blog-banner img{
     width: 275px;
